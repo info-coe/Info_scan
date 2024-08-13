@@ -1,42 +1,67 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Password eye icon start */
+
+.toggle11 {
+  background: none;
+  border: none;
+  /* color: #337ab7; */
+  font-weight: 600;
+  position: absolute;
+  right: 1em;
+  top: 1.8em;
+  z-index: 9;
+  font-size: 20px;
+}
+.toggle12 {
+  background: none;
+  border: none;
+  font-weight: 600;
+  position: absolute;
+  right: 1.3em;
+  top: .2em;
+  z-index: 9;
+  font-size: 20px;
+}
+.passwordgroup{
+  position: relative;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+/* Password eye icon end */
+
+.fullscreen{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.fullscreen main{
+  flex-grow: 1;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ .fullscreen2{
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+.fullscreen2 main{
+  flex-grow: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+@media all and (max-width: 767px) and (orientation: portrait) {
+
+}
+@media all and (max-width: 767px) {
+
 }
 
-.card {
-  padding: 2em;
+@media all and (min-width: 768px) and (max-width: 991px) {
+
 }
 
-.read-the-docs {
-  color: #888;
+@media all and (min-width: 992px) and (max-width: 1280px) and (orientation: portrait) {
+
+}
+@media all and (min-width: 992px) and (max-width: 1280px) and (orientation: landscape) {
+
+}
+@media all and (min-width: 1281px) and (max-width: 1600px) and (orientation: landscape) {
+
 }
