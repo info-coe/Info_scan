@@ -1,3 +1,4 @@
+
 /* Password eye icon start */
 
 .toggle11 {
@@ -65,3 +66,153 @@
 @media all and (min-width: 1281px) and (max-width: 1600px) and (orientation: landscape) {
 
 }
+
+
+
+/* .registerbg{
+  background: black;
+  min-height: 110vh;
+  height: auto;
+  color: white;
+}
+.boxmaindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.box {
+  max-width: 500px;
+  min-width: 350px;
+  height: auto;
+  background: rgba(250, 244, 244, 0.25);
+  backdrop-filter: blur(5px);
+  border: 2px solid rgba(165, 163, 163, 0.18);
+  border-radius: 15px;
+  z-index: 1;
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #0382d7, #68cffb);
+  z-index: 0;
+}
+
+.circle:nth-child(2) {
+  background: linear-gradient(to right, rgb(236, 89, 131), #fb734a);
+}
+.text-danger{
+  color:rgb(255, 9, 9)
+}
+.circle:nth-child(1) {
+  top: 88%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+}
+
+.circle:nth-child(2) {
+  top: 8%;
+  right: 33%;
+  transform: translate(50%, -50%);
+}
+.control-label{
+  font-size: 15px;
+  font-weight: 700;
+}
+
+@media (max-width: 575.98px) {
+  .circle {
+    width: 40vw;
+    height: 40vw;
+  }
+  .box {
+    max-width: 350px;
+    min-width: 300px;
+  }
+  .circle:nth-child(1) {
+    top: 80%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .circle:nth-child(2) {
+    top: 15%;
+    right: 12%;
+    transform: translate(50%, -50%);
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .circle {
+    width: 35vw;
+    height: 35vw;
+  }
+  .box {
+    max-width: 500px;
+    min-width: 400px;
+  }
+  .circle:nth-child(1) {
+    top: 80%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .circle:nth-child(2) {
+    top: 10%;
+    right: 10%;
+    transform: translate(50%, -50%);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .circle {
+    width: 30vw;
+    height: 30vw;
+  }
+  .box {
+    max-width: 500px;
+    min-width: 430px;
+  }
+  .circle:nth-child(1) {
+    top: 78%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .circle:nth-child(2) {
+    top: 25%;
+    right: 25%;
+    transform: translate(50%, -50%);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .circle {
+    width: 25vw;
+    height: 25vw;
+  }
+  .box {
+    max-width: 500px;
+    min-width: 420px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .circle {
+    width: 20vw;
+    height: 20vw;
+  }
+  .box {
+    max-width: 500px;
+    min-width: 430px;
+  }
+}
+ */
