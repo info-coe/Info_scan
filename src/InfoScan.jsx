@@ -2,6 +2,7 @@ import React from "react";
 import scan1 from "./Images/scan1.jpg";
 import scan2 from "./Images/scan2.jpg";
 import scan3 from "./Images/scan3.jpg";
+import info  from "./Images/info-scan.jpg"
 export default function InfoScan() {
   const infoScanFeatures = [
     {
@@ -69,10 +70,10 @@ export default function InfoScan() {
 
   return (
     <div className="container">
-    <div className="shadow rounded p-3 mt-3 mb-3" style={{backgroundColor:"lightblue"}}>
+    <div className="shadow rounded p-3 mt-3 mb-3" >
 
       <h1 className="text-center">Info Scan</h1>
-      <div>
+      {/* <div>
         <p>
           Info Scan is an AI-based, all-in-one web assessment solution
           meticulously engineered to safeguard your online presence. This
@@ -89,7 +90,38 @@ export default function InfoScan() {
           you to focus on what matters most—growing your business and delivering
           value to your customers.
         </p>
-      </div>
+      </div> */}
+      <div>
+  <div className="row align-items-center">
+    <div className="col-md-8 ">
+      <p>
+        Info Scan is an AI-based, all-in-one web assessment solution
+        meticulously engineered to safeguard your online presence. This
+        advanced tool scans your domain for vulnerabilities, offering
+        predictive insights to help you secure potential attack surfaces
+        before they are exploited. In addition to its robust security
+        features, Info Scan also provides valuable SEO analysis, enabling you
+        to optimize your website’s performance and improve search engine
+        rankings.
+      </p>
+      <p>
+        Info Scan is designed to be the cornerstone of your digital security
+        and performance strategy. By automating critical assessments, it frees
+        you to focus on what matters most—growing your business and delivering
+        value to your customers.
+      </p>
+    </div>
+
+    <div className="col-md-4">
+      <img
+        src={info}
+        alt="Info Scan"
+        className="img-fluid"
+      />
+    </div>
+  </div>
+</div>
+
       </div>
       <div className="container features">
        <h2 className="section-header">Features</h2>
