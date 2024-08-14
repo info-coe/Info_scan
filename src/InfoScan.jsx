@@ -1,5 +1,7 @@
 import React from "react";
-
+import scan1 from "./Images/scan1.jpg";
+import scan2 from "./Images/scan2.jpg";
+import scan3 from "./Images/scan3.jpg";
 export default function InfoScan() {
   const infoScanFeatures = [
     {
@@ -46,16 +48,19 @@ export default function InfoScan() {
 
   const infoScanServices = [
     {
+      image:scan1,
       title: "Free Domain Security Assessment",
       content:
         "Register with your business email, role, and domain details to receive a complimentary security assessment report.",
     },
     {
+      image:scan2,
       title: "SEO Performance Analysis",
       content:
         "Improve your website’s SEO performance with our in-depth analysis, designed to help you achieve better search engine rankings.",
     },
     {
+      image:scan3,
       title: "Consultation and Issue Resolution",
       content:
         "Once you receive your assessment report, our experts will guide you through fixing any identified issues, offering commercial solutions tailored to your specific needs.",
@@ -63,8 +68,10 @@ export default function InfoScan() {
   ];
 
   return (
-    <div>
-      <h1>Info Scan</h1>
+    <div className="container">
+    <div className="shadow rounded p-3 mt-3 mb-3" style={{backgroundColor:"lightblue"}}>
+
+      <h1 className="text-center">Info Scan</h1>
       <div>
         <p>
           Info Scan is an AI-based, all-in-one web assessment solution
@@ -83,23 +90,37 @@ export default function InfoScan() {
           value to your customers.
         </p>
       </div>
-      <div>
-        <h2>Features</h2>
-        {infoScanFeatures.map((item, index) => (
-          <div key={index}>
-            <h4>{item.title}</h4>
-            <p>{item.content}</p>
-          </div>
-        ))}
       </div>
+      <div className="container features">
+       <h2 className="section-header">Features</h2>
+
+  <div className="row">
+    {infoScanFeatures.map((item, index) => (
+      <div className="col-lg-4" key={index}>
+        <div className="features-box">
+          <h4 className="features-title">
+            <a href="#">{item.title}</a>
+          </h4>
+          <p className="features-description">{item.content}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
+
       <div>
-        <h2>Our Services</h2>
-        {infoScanServices.map((item, index) => (
-          <div key={index}>
-            <h4>{item.title}</h4>
-            <p>{item.content}</p>
-          </div>
-        ))}
+        <h2 className="section-header">Our Services</h2>
+        <div className="grid-container">
+          {infoScanServices.map((item, index) => (
+            <div key={index} className="grid-item shadow m-2 p-3">
+              <div className="" style={{ height: "54%" }}>
+                <img src={item.image} alt="Services" width="70%" />
+              </div>
+              <h4 style={{ height: "17%" }}>{item.title}</h4>
+              <p>{item.content}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

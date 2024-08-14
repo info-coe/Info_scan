@@ -216,3 +216,123 @@
   }
 }
  */
+
+ /* infoscan features css */
+
+ .container {
+  max-width: 1320px;
+}
+
+.features {
+  padding: 60px 0;
+}
+
+.section-header {
+  font-size: 36px;
+  color: #413e66;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: #535074;
+  width: 50%;
+}
+.features-box {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  background: #fff;
+  box-shadow: 10px 10px 10px rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  min-height: 160px;
+  height: auto;
+}
+
+.features-box:hover {
+  transform: scale(1.1);
+}
+
+.features-title a {
+  color: #111;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.features-box:hover .features-title a {
+  color: #c59c35;
+}
+
+.features-title a:hover {
+  text-decoration: none;
+}
+
+.features-description {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .section-description {
+    width: 100%;
+  }
+}
+
+
+
+/* infoscan services */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 330px;
+  text-align: center;
+}
+
+@media all and (max-width: 767px) and (orientation: portrait) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+  }
+}
+@media all and (max-width: 767px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 1280px) and (orientation: portrait) {
+
+}
+@media all and (min-width: 992px) and (max-width: 1280px) and (orientation: landscape) {
+
+}
+@media all and (min-width: 1281px) and (max-width: 1600px) and (orientation: landscape) {
+
+}
