@@ -128,12 +128,14 @@ export default function InfoScan() {
 
   <div className="row">
     {infoScanFeatures.map((item, index) => (
-      <div className="col-lg-4" key={index}>
+      <div className="col-lg-3" key={index}>
         <div className="features-box">
-          <h4 className="features-title">
+         <div>
+         <h4 className="features-title">
             <a href="#">{item.title}</a>
           </h4>
           <p className="features-description">{item.content}</p>
+         </div>
         </div>
       </div>
     ))}

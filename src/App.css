@@ -219,9 +219,9 @@
 
  /* infoscan features css */
 
- .container {
+ /* .container {
   max-width: 1320px;
-}
+} */
 
 .features {
   padding: 60px 0;
@@ -251,8 +251,11 @@
   box-shadow: 10px 10px 10px rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
   text-align: center;
-  min-height: 160px;
+  min-height: 230px;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .features-box:hover {
