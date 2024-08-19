@@ -11,6 +11,16 @@ export default function InfoScan() {
         "Automatically detect and receive expert recommendations on potential vulnerabilities, ensuring your domain is protected against cyber threats.",
     },
     {
+      title: "AI-Based SEO Insights",
+      content:
+        "Gain expert recommendations on improving your website’s speed and search engine visibility through advanced AI analysis.",
+    },
+    {
+      title: "Custom LLM and Plugin Integration",
+      content:
+        "Enhance your assessments by integrating custom Large Language Models (LLMs) and plugins tailored to your needs.",
+    },
+    {
       title: "Multi-Organization and Project Management",
       content:
         "Easily manage multiple organizations and projects, and generate detailed reports for each, all from a single platform.",
@@ -26,19 +36,9 @@ export default function InfoScan() {
         "Stay informed with real-time email alerts that keep you updated on any changes in your domain’s security or SEO scores.",
     },
     {
-      title: "AI-Based SEO Insights",
-      content:
-        "Gain expert recommendations on improving your website’s speed and search engine visibility through advanced AI analysis.",
-    },
-    {
       title: "User and Role Management",
       content:
         "Centralized management of users and roles ensures that only authorized personnel have access to sensitive data.",
-    },
-    {
-      title: "Custom LLM and Plugin Integration",
-      content:
-        "Enhance your assessments by integrating custom Large Language Models (LLMs) and plugins tailored to your needs.",
     },
     {
       title: "Dockerized Deployment",
@@ -82,10 +82,10 @@ export default function InfoScan() {
           <h1 className="text-center">Info Scan</h1>
           <div>
             <div className="row align-items-center">
-            <div className="col-md-4">
-                <img src={info} alt="Info Scan" className="img-fluid" />
+            <div className="col-md-3 text-center">
+                <img src={info} alt="Info Scan" width="90%"/>
               </div>
-              <div className="col-md-8 ">
+              <div className="col-md-9 ">
                 <p>
                   Info Scan is an AI-based, all-in-one web assessment solution
                   meticulously engineered to safeguard your online presence.
