@@ -21,11 +21,6 @@ export default function InfoScan() {
         "Enhance your assessments by integrating custom Large Language Models (LLMs) and plugins tailored to your needs.",
     },
     {
-      title: "Multi-Organization and Project Management",
-      content:
-        "Easily manage multiple organizations and projects, and generate detailed reports for each, all from a single platform.",
-    },
-    {
       title: "Comprehensive PDF Reporting",
       content:
         "Generate and download in-depth PDF reports that provide actionable insights into your domain's security status and SEO performance.",
@@ -36,12 +31,7 @@ export default function InfoScan() {
         "Stay informed with real-time email alerts that keep you updated on any changes in your domain’s security or SEO scores.",
     },
     {
-      title: "User and Role Management",
-      content:
-        "Centralized management of users and roles ensures that only authorized personnel have access to sensitive data.",
-    },
-    {
-      title: "Dockerized Deployment",
+      title: "Seamless Deployment",
       content:
         "Deploy Info Scan anywhere—whether on-premises or in the cloud—with ease, thanks to its Dockerized architecture.",
     },
@@ -82,10 +72,10 @@ export default function InfoScan() {
           <h1 className="text-center">Info Scan</h1>
           <div>
             <div className="row align-items-center">
-            <div className="col-md-3 text-center">
-                <img src={info} alt="Info Scan" width="90%"/>
+            <div className="col-md-4 text-center">
+                <img src={info} alt="Info Scan" width="80%" style={{ filter: "revert(100%)" }}/>
               </div>
-              <div className="col-md-9 ">
+              <div className="col-md-8 ">
                 <p>
                   Info Scan is an AI-based, all-in-one web assessment solution
                   meticulously engineered to safeguard your online presence.
